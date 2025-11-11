@@ -13,6 +13,7 @@ Student* students;
 int currentStudents;
 public:
 Course();
+~course();
 Course(string c , string n,int m);
 addStudent(const Student& s);
 displayCourseInfo();
