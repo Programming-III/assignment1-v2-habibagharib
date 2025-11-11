@@ -3,6 +3,13 @@
 
 #include <string>
 using namespace std;
+class Person{
+private:
+string name;
+int id;
+public:
+void display();
+#endif 
 
 //#write Person class here
 
