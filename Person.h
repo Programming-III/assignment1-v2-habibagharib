@@ -8,6 +8,7 @@ protected:
 string name;
 int id;
 public:
+~Person();
 Person();
 void display();
 #endif 
