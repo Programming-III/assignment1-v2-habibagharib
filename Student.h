@@ -9,7 +9,7 @@ private:
 int yearLevel;
 string major;
 public:
-Student(string n,int y,string m):Person(string n , int id);
+Student(string n,int y,string m,string n , int id):Person(string n , int id);
 getName();
 getId();
 
