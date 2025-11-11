@@ -1,4 +1,4 @@
-#ifndef PERSON_H
+n#ifndef PERSON_H
 #define PERSON_H
 
 #include <string>
@@ -8,6 +8,7 @@ protected:
 string name;
 int id;
 public:
+Person();
 void display();
 #endif 
 
