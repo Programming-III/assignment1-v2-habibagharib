@@ -7,7 +7,11 @@
 
 
 using namespace std;
-
+class person{
+void person :: display(){
+   cout<<"Name:"<<p.name<<endl;
+  cout<<"id:"<<p.id<<endl; 
+}
 // ==================== Person Class Implementation =========================
 
 
