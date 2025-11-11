@@ -8,6 +8,7 @@ private:
 string department;
 int experienceYears;
 public:
+~Instructor();
 Instructor(string n, string d,int y,string n , int id):Person(string n , int id);
 Instructor();
 void display();
