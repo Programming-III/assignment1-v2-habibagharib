@@ -9,6 +9,10 @@ private:
 int yearLevel;
 string major;
 public:
+Student(string n,int y,string m):Person(string n , int id);
+getName();
+getId();
+
 void display();
 #endif
 //#write student class here
