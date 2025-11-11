@@ -10,6 +10,7 @@ int yearLevel;
 string major;
 public:
 Student(string n,int y,string m,string n , int id):Person(string n , int id);
+~Student();
 Student();
 getName();
 getId();
