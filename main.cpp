@@ -35,8 +35,14 @@ cout<<"Course:"<<courseCode<<"-"<<courseName<<endl;
 cout<<"Max Students:"<<MaxStudents<<endl;
 cout<<"currently Enrolled:"<<students;
 }
-Student Student(string n,int y,string m){
-person:name=n;
+string Student::getName(){
+   return name;
+}
+string Student::getId(){
+   return id;
+}
+
+Student:: Student(string n,int y,string m,String n , int id) :person(String n , int id){
 yearLevel=y;
 major=m;
 }
@@ -44,8 +50,7 @@ Course Course(string c , string n,int m){
 courseName=n;
 courseCode=c;
 maxStudents=m;}
-Instructor Instructor(string n, string d,int y){
-person:name=n;
+Instructor Instructor(string n, string d,int y,String n , int id):person(String n , int id){
 department=d;
 experienceYears=y;
 }
