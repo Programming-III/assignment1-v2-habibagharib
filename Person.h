@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 class Person{
-private:
+protected:
 string name;
 int id;
 public:
